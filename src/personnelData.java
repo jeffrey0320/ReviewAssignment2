@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class personnelData {
     private String employeeNumber;
     private String lastName;
@@ -7,7 +9,15 @@ public class personnelData {
     private double rateBefore9PM;
     private double rateBet9and12;
     private double rateAfter12;
+    private ArrayList<payrollData> data;
 
+    public personnelData(String employeeNumber,String lastName) {
+        this.employeeNumber = employeeNumber;
+        this.lastName = lastName;
+        this.firstName = firstName;
+
+        data = new ArrayList<>();
+    }
 
     public String getEmployeeNumber() {
         return employeeNumber;

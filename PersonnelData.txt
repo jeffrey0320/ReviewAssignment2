@@ -1,8 +1,8 @@
 0001
-McGill, Stacey
+McGill Stacey
 231 Maple Avenue
 Stoneybrook, Connecticut 30122
-5.50	4.00	6.00
+5.50    4.00    6.00
 
 0002
 Spier, Maryann
